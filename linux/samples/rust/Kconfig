@@ -163,4 +163,11 @@ config SAMPLE_RUST_SELFTESTS
 
 	  If unsure, say N.
 
+config SAMPLE_RUST_PRINT_HELLOWORLD
+	tristate "Print Helloworld"
+	help
+	  This option is a Rust minimal sample of print hello world.
+
+	  If unsure, say N.	  
+
 endif # SAMPLES_RUST
