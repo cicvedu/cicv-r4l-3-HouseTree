@@ -170,4 +170,5 @@ config SAMPLE_RUST_PRINT_HELLOWORLD
 
 	  If unsure, say N.	  
 
+
 endif # SAMPLES_RUST
